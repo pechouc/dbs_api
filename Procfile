@@ -1,1 +1,1 @@
-web: gunicorn --chdir destination_based_sales app:app
+web: gunicorn --chdir dbs_api app:app
