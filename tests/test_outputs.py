@@ -92,6 +92,7 @@ def test_US_outputs():
             assert np.abs(intermediary_df_1[column] - intermediary_df_1_saved[column]).max() < 0.0000001
             assert np.abs(intermediary_df_2[column] - intermediary_df_2_saved[column]).max() < 0.0000001
 
+
 def test_global_restricted_outputs():
     available_years = [2016, 2017]
 
